@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!--meta data-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Ashwin Bio">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Ashwin Jain">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--Linking stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Linking javascript-->
+    <script src="script.js"></script>
+
+    <title>Ashwin's Bio</title>
+    <h1>All About Ashwin!</h1>
+</head>
+
+<body>
+    <!--Image of me-->
+    <img class="self-img" src="data/images/ashwin.png" alt="Ashwin's face" style="width: 400px;height: 500px;">
+    
+    <!--Creating the tabs-->
+    <div class="master">
+        <div class="header_tabs">
+            <button class="tablinks" type="button" onclick="openTab(event, 'about_me')">About me</button>
+            <button class="tablinks" type="button" onclick="openTab(event, 'projects')">Projects</button>
+            <button class="tablinks" type="button" onclick="openTab(event, 'credentials')">Credentials</button>
+            <button class="tablinks" type="button" onclick="openTab(event, 'contact')">Contact</button>
+        </div>
+
+        <!-- Tab content -->
+        <div id="about_me" class="tabcontent">
+            <h3>About Me</h3>
+            <p>Ashwin is awesome</p>
+        </div>
+        
+        <div id="projects" class="tabcontent">
+            <h3>Projects</h3>
+            <p>This is my first project</p>
+        </div>
+        
+        <div id="credentials" class="tabcontent">
+            <h3>Credentials</h3>
+            <p>Pursuing CS at uiuc</p>
+        </div>
+
+        <div id="contact" class="tabcontent">
+            <h3>Contact</h3>
+            <p>Contact me at 1ashwinjain@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html>
