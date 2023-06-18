@@ -18,6 +18,8 @@ function openTabTest(thisId) {
     var tabs = document.getElementsByClassName("tablinks");
     for (var i = 0; i < tabs.length; i++) {
         tabs[i].style.backgroundColor = "#FF5F05";
+        tabs[i].style.h
+
     }
 
     var tabName = thisId.replace("_button", "")
