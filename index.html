@@ -1,57 +1,124 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html style="background-color: #edeeda;">
+  <head>
     <!--meta data-->
-    <meta charset="UTF-8">
-    <meta name="description" content="Ashwin Bio">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="Ashwin Jain">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta charset="UTF-8" />
+    <meta name="description" content="Ashwin Bio" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Ashwin Jain" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--Linking stylesheet-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!--Linking javascript-->
     <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/e6921743c9.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <title>Ashwin's Bio</title>
-    <h1>All About Ashwin!</h1>
-</head>
+    <title>Ashwin Jain</title>
+    <h1 class="head">Ashwin Jain's Bio</h1>
+  </head>
 
-<body>
+  <body>
     <!--Image of me-->
-    <img class="self-img" src="data/images/ashwin.png" alt="Ashwin's face" style="width: 400px;height: 500px;">
-    
+    <img
+      class="self-img"
+      src="data/images/ashwin.png"
+      alt="Ashwin's face"
+      style="width: 300px; height: 375px"
+    />
+
     <!--Creating the tabs-->
     <div class="master">
-        <nav class="header_tabs">
-                <button id="about_me_button" class="tablinks" type="button" onclick="openTabTest(this.id)">About me</button>
-                <button id="projects_button" class="tablinks" type="button" onclick="openTabTest(this.id)">Projects</button>
-                <button id="credentials_button" class="tablinks" type="button" onclick="openTabTest(this.id)">Credentials</button>
-                <button id="contact_button" class="tablinks" type="button" onclick="openTabTest(this.id)">Contact</button>
-        </nav>
+      <nav class="header_tabs">
+        <button
+          id="about_me_button"
+          class="tablinks"
+          type="button"
+          onclick="openTabTest(this.id)"
+        >
+          About me
+        </button>
+        <button
+          id="projects_button"
+          class="tablinks"
+          type="button"
+          onclick="openTabTest(this.id)"
+        >
+          Projects
+        </button>
+        <button
+          id="credentials_button"
+          class="tablinks"
+          type="button"
+          onclick="openTabTest(this.id)"
+        >
+          Credentials
+        </button>
+        <button
+          id="contact_button"
+          class="tablinks"
+          type="button"
+          onclick="openTabTest(this.id)"
+        >
+          Contact
+        </button>
+      </nav>
 
-        <!-- Tab content -->
-        <div id="about_me" class="tabcontent">
-            <h3>About Me</h3>
-            <p>Ashwin is awesome</p>
-        </div>
-        
-        <div id="projects" class="tabcontent">
-            <h3>Projects</h3>
-            <p>This is my first project</p>
-        </div>
-        
-        <div id="credentials" class="tabcontent">
-            <h3>Credentials</h3>
-            <p>Pursuing CS at uiuc</p>
-        </div>
+      <!-- Tab content -->
+      <div id="about_me" class="tabcontent">
+        <h3>About Me</h3>
+        <p>Ashwin is awesome</p>
+      </div>
 
-        <div id="contact" class="tabcontent">
-            <h3>Contact</h3>
-            <p>Contact me at 1ashwinjain@gmail.com</p>
+      <div id="projects" class="tabcontent">
+        <h3>Projects</h3>
+        <p>Welcome to the projects page! Here, you can take a look at all the projects I've worked on. Each of them are different, ranging from front end web apps, to mobile applications, to raw C++ projets. A link to each project's github is provided along with a short demo video.</p>
+      </div>
+
+      <div id="credentials" class="tabcontent">
+        <h3>Credentials</h3>
+        <p>Pursuing CS at uiuc</p>
+      </div>
+
+      <div id="contact" class="tabcontent">
+        <h3>Contact</h3>
+        <p>Feel free to contact me through any of these medias below!</p>
+
+        <div class="contact_item">
+          <div class="icon">
+            <i class="fa-solid fa-envelope" style="color: #5084dc"></i>
+          </div>
+          <div class="detail">1ashwinjain@gmail.com</div>
         </div>
+        <div class="contact_item">
+          <div class="icon">
+            <i class="fa-solid fa-phone" style="color: #5084dc"></i>
+          </div>
+          <div class="detail">(615) 981-6618</div>
+        </div>
+        <div class="contact_item">
+          <div class="icon">
+            <i class="fa-brands fa-linkedin" style="color: #5084dc"></i>
+          </div>
+          <div class="detail">
+            <a href="https://linkedin.com/in/real-ashwin-jain" class="detail"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+        <div class="contact_item">
+          <div class="icon">
+            <i class="fa-brands fa-github" style="color: #5084dc"></i>
+          </div>
+          <div class="detail">
+            <a href="https://github.com/ashwinjain" class="detail">GitHub</a>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
