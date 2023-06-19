@@ -1,3 +1,17 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  min-height: 100%;
+  min-width: 100%;
+  /* overflow-x: hidden; */
+}
+
+.head_title {
+  text-align: center;
+  /* padding-top: 10px; */
+}
 .header_tabs {
   overflow: hidden;
   border: 7px solid #000;
@@ -17,9 +31,9 @@
 }
 
 /* Change background color of buttons on hover */
-.header_tabs button:hover {
+/* .header_tabs button:hover {
   background-color: #cc4f06;
-}
+} */
 
 /* Create an active/current tablink class */
 .header_tabs button.active {
@@ -55,4 +69,13 @@
 
 .detail {
   width: 400px;
+}
+
+
+#about_me_button {
+  background-color: #cc4f06;
+}
+
+#about_me {
+  display: block;
 }
