@@ -1,3 +1,4 @@
+
 // Show about me page my default
 document.getElementById("defaultOpen").style.display = "block";
 
